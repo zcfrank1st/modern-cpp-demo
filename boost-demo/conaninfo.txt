@@ -8,6 +8,7 @@
 
 [requires]
     Boost/1.Y.Z
+    Poco/1.Y.Z
 
 [options]
 
@@ -22,6 +23,8 @@
 
 [full_requires]
     Boost/1.60.0@lasote/stable:c534c79d09a3ac9c638d72293b8e20db77c98271
+    OpenSSL/1.0.2i@lasote/stable:811d822905b54fc167634e916129401c4f86d1e5
+    Poco/1.7.5@lasote/stable:ed6b7f756ffc0200e01bbc20f2020be357501569
     bzip2/1.0.6@lasote/stable:ff98bb2d0d92f3dfb4c8a4637f364830f8e2da7a
     zlib/1.2.8@lasote/stable:dfaeed675a0f450dbc88fe8262d9d89b3e8509b0
 
@@ -57,6 +60,53 @@
     Boost:without_timer=False
     Boost:without_type_erasure=False
     Boost:without_wave=False
+    OpenSSL:386=False
+    OpenSSL:no_asm=False
+    OpenSSL:no_bf=False
+    OpenSSL:no_cast=False
+    OpenSSL:no_des=False
+    OpenSSL:no_dh=False
+    OpenSSL:no_dsa=False
+    OpenSSL:no_electric_fence=False
+    OpenSSL:no_hmac=False
+    OpenSSL:no_md2=False
+    OpenSSL:no_md5=False
+    OpenSSL:no_mdc2=False
+    OpenSSL:no_rc2=False
+    OpenSSL:no_rc4=False
+    OpenSSL:no_rc5=False
+    OpenSSL:no_rsa=False
+    OpenSSL:no_sha=False
+    OpenSSL:no_sse2=False
+    OpenSSL:no_threads=False
+    OpenSSL:no_zlib=False
+    OpenSSL:shared=False
+    OpenSSL:zlib_dynamic=False
+    Poco:cxx_14=False
+    Poco:enable_apacheconnector=False
+    Poco:enable_cppparser=False
+    Poco:enable_crypto=True
+    Poco:enable_data=True
+    Poco:enable_data_mysql=False
+    Poco:enable_data_odbc=False
+    Poco:enable_data_sqlite=True
+    Poco:enable_json=True
+    Poco:enable_mongodb=True
+    Poco:enable_net=True
+    Poco:enable_netssl=True
+    Poco:enable_netssl_win=True
+    Poco:enable_pagecompiler=False
+    Poco:enable_pagecompiler_file2page=False
+    Poco:enable_pdf=False
+    Poco:enable_pocodoc=False
+    Poco:enable_sevenzip=False
+    Poco:enable_tests=False
+    Poco:enable_util=True
+    Poco:enable_xml=True
+    Poco:enable_zip=True
+    Poco:force_openssl=True
+    Poco:poco_unbundled=False
+    Poco:shared=False
     bzip2:fPIC=True
     bzip2:shared=False
     zlib:shared=False

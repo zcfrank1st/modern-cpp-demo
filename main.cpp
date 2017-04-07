@@ -1,9 +1,8 @@
 #include <iostream>
-#include <boost/progress.hpp>
-using namespace boost;
+#include <boost/date_time/gregorian/gregorian.hpp>
+using namespace boost::gregorian;
+using namespace std;
 
 int main() {
-    boost::progress_timer t;
-
-    std::cout << "hello world" << std::endl;
+    cout << "hello world" << endl;
 }
