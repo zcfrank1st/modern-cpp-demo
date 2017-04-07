@@ -1,8 +1,5 @@
-#include <iostream>
-#include <boost/date_time/gregorian/gregorian.hpp>
-using namespace boost::gregorian;
-using namespace std;
+#include "boost-demo/boost_demo.h"
 
 int main() {
-    cout << "hello world" << endl;
+    demo::test();
 }
