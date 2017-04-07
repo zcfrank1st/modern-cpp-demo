@@ -1,5 +1,4 @@
 [requires]
-Boost/1.60.0@lasote/stable
 Poco/1.7.5@lasote/stable
 
 [generators]

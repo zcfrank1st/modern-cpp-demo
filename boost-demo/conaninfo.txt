@@ -7,7 +7,6 @@
     os=Macos
 
 [requires]
-    Boost/1.Y.Z
     Poco/1.Y.Z
 
 [options]
@@ -22,44 +21,11 @@
     os=Macos
 
 [full_requires]
-    Boost/1.60.0@lasote/stable:c534c79d09a3ac9c638d72293b8e20db77c98271
     OpenSSL/1.0.2i@lasote/stable:811d822905b54fc167634e916129401c4f86d1e5
     Poco/1.7.5@lasote/stable:ed6b7f756ffc0200e01bbc20f2020be357501569
-    bzip2/1.0.6@lasote/stable:ff98bb2d0d92f3dfb4c8a4637f364830f8e2da7a
     zlib/1.2.8@lasote/stable:dfaeed675a0f450dbc88fe8262d9d89b3e8509b0
 
 [full_options]
-    Boost:fPIC=False
-    Boost:header_only=False
-    Boost:python=False
-    Boost:shared=False
-    Boost:without_atomic=False
-    Boost:without_chrono=False
-    Boost:without_container=False
-    Boost:without_context=False
-    Boost:without_coroutine=False
-    Boost:without_coroutine2=False
-    Boost:without_date_time=False
-    Boost:without_exception=False
-    Boost:without_filesystem=False
-    Boost:without_graph=False
-    Boost:without_graph_parallel=False
-    Boost:without_iostreams=False
-    Boost:without_locale=False
-    Boost:without_log=False
-    Boost:without_math=False
-    Boost:without_mpi=False
-    Boost:without_program_options=False
-    Boost:without_random=False
-    Boost:without_regex=False
-    Boost:without_serialization=False
-    Boost:without_signals=False
-    Boost:without_system=False
-    Boost:without_test=False
-    Boost:without_thread=False
-    Boost:without_timer=False
-    Boost:without_type_erasure=False
-    Boost:without_wave=False
     OpenSSL:386=False
     OpenSSL:no_asm=False
     OpenSSL:no_bf=False
@@ -107,8 +73,6 @@
     Poco:force_openssl=True
     Poco:poco_unbundled=False
     Poco:shared=False
-    bzip2:fPIC=True
-    bzip2:shared=False
     zlib:shared=False
 
 [scope]
